@@ -21,9 +21,6 @@ def clear_fields():
         exec(f"{i}.set('')")
     bk_id_entry.config(state='normal')
 
-def clear_and_display():
-    clear_fields()
-    display_records()
 
 def add_record():
     global connector
